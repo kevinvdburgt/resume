@@ -1,0 +1,41 @@
+{
+  "name": "@kevinvdburgt/resume",
+  "private": true,
+  "maintainers": [
+    "Kevin van der Burgt <kevin@pokeit.nl>"
+  ],
+  "type": "module",
+  "engines": {
+    "node": ">=24.11.1",
+    "pnpm": ">=10.23.0"
+  },
+  "packageManager": "pnpm@10.23.0+sha512.21c4e5698002ade97e4efe8b8b4a89a8de3c85a37919f957e7a0f30f38fbc5bbdd05980ffe29179b2fb6e6e691242e098d945d1601772cad0fef5fb6411e2a4b",
+  "imports": {
+    "#*": "./dist/*"
+  },
+  "scripts": {
+    "dev": "node --import ./scripts/loader.js --watch ./scripts/generate.tsx",
+    "generate": "node --import ./scripts/loader.js ./scripts/generate.tsx",
+    "check": "eslint && prettier . --check",
+    "check:fix": "eslint --fix && prettier . --write"
+  },
+  "dependencies": {
+    "@react-pdf/renderer": "^4.3.1",
+    "@types/react": "^19.2.7",
+    "react": "^19.2.0",
+    "ts-pattern": "^5.9.0",
+    "zod": "^4.1.13"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "@swc-node/register": "^1.11.1",
+    "@trivago/prettier-plugin-sort-imports": "^6.0.0",
+    "@types/node": "^24.10.1",
+    "eslint": "^9.39.1",
+    "eslint-config-prettier": "^10.1.8",
+    "globals": "^16.5.0",
+    "prettier": "^3.7.3",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.48.0"
+  }
+}
