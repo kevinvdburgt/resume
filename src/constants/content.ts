@@ -156,7 +156,7 @@ export const content = {
       },
       {
         logoSrc: './assets/companies/eab.png',
-        name: 'Energie Excellen',
+        name: 'Energie Excellent',
         location: 'Den Haag',
         position: {
           nl: 'Freelance software engineer',

@@ -11,15 +11,19 @@ import { Sidebar } from '#components/sidebar.js';
 import { WorkExperience } from '#components/work-experience.js';
 import { content } from '#constants/content.js';
 import '#fonts.js';
+import type { Translate } from '#interfaces/resume-content.js';
 
-export const Resume: FunctionComponent = () => {
-  const language = 'en';
+export interface ResumeProps {
+  readonly language?: keyof Translate;
+}
+
+export const Resume: FunctionComponent<ResumeProps> = (props) => {
+  const { language = 'nl' } = props;
 
   return (
     <Document>
       <Page>
         <Sidebar>
-          {/* Avatar */}
           <Avatar src={content.avatarSrc} />
 
           {content.info.map((section, index) => (
@@ -31,7 +35,7 @@ export const Resume: FunctionComponent = () => {
         </Sidebar>
 
         <Main>
-          <Header firstName="Kevin" lastName="van der Burgt" title="Freelance software engineer/consultant" />
+          <Header firstName={content.firstName} lastName={content.lastName} title={content.title[language]} />
 
           <Heading name={content.workExperience.name[language]} style={{ marginTop: '10mm' }} />
           {content.workExperience.items.map((item, index) => (
@@ -48,12 +52,6 @@ export const Resume: FunctionComponent = () => {
               technologies={item.technologies}
             />
           ))}
-
-          <Heading name="Projecten" style={{ marginTop: '10mm' }} />
-
-          <Heading name="Talks" style={{ marginTop: '10mm' }} />
-
-          <Heading name="Opleidingen en cursussen" style={{ marginTop: '10mm' }} />
         </Main>
       </Page>
     </Document>
