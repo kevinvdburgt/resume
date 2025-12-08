@@ -1,0 +1,40 @@
+name: Deploy
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - uses: pnpm/action-setup@v4
+        with:
+          cache: true
+
+      - name: Setup node
+        uses: actions/setup-node@v6
+        with:
+          node-version: 24
+
+      - name: Install dependencies
+        run: pnpm install
+
+      - name: Generate documents
+        run: pnpm generate
+
+      - name: Upload documents
+        uses: appleboy/scp-action@v1
+        with:
+          host: ${{ secrets.SERVER_KEVIN_SSH_HOSTNAME }}
+          username: ${{ secrets.SERVER_KEVIN_SSH_USERNAME }}
+          key: ${{ secrets.SERVER_KEVIN_SSH_KEY }}
+          port: ${{ secrets.SERVER_KEVIN_SSH_PORT }}
+          source: "dist/resume-english.pdf,dist/resume-dutch.pdf"
+          target: ${{ secrets.SERVER_KEVIN_LOCATION_DL }}
+          strip_components: 1
