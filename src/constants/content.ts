@@ -275,4 +275,12 @@ export const content = {
       },
     ],
   },
+
+  credits: {
+    message: {
+      nl: 'Leuk weetje: dit cv is gegenereerd met code, bekijk de code op GitHub.',
+      en: 'Fun fact: This resume was generated using code, check out the code on GitHub.',
+    },
+    url: 'https://github.com/kevinvdburgt/resume',
+  },
 } satisfies ResumeContent;
