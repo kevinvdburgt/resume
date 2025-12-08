@@ -24,4 +24,9 @@ export interface ResumeContent {
       readonly technologies: string[];
     }[];
   };
+
+  readonly credits: {
+    readonly message: Translate;
+    readonly url: string;
+  };
 }

@@ -3,6 +3,7 @@ import React, { type FunctionComponent } from 'react';
 
 import { Avatar } from '#components/avatar.js';
 import { Content } from '#components/content.js';
+import { Credits } from '#components/credits.js';
 import { Header } from '#components/header.js';
 import { Heading } from '#components/heading.js';
 import { Main } from '#components/main.js';
@@ -52,6 +53,12 @@ export const Resume: FunctionComponent<ResumeProps> = (props) => {
               technologies={item.technologies}
             />
           ))}
+
+          <Credits
+            style={{ marginTop: '10mm' }}
+            message={content.credits.message[language]}
+            url={content.credits.url}
+          />
         </Main>
       </Page>
     </Document>
