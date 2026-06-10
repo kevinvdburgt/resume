@@ -56,8 +56,8 @@ export const content = {
         en: 'Tools and software',
       },
       content: {
-        nl: 'Agile/Scrum, Linux, MacOS, Windows, Docker, k8s, MySQL, PostgreSQL, Redis, MongoDB, Grafana, Prometheus, Tailscale, Proxmox, Affinity, Figma.',
-        en: 'Agile/Scrum, Linux, MacOS, Windows, Docker, k8s, MySQL, PostgreSQL, Redis, MongoDB, Grafana, Prometheus, Tailscale, Proxmox, Affinity, Figma.',
+        nl: 'Agile/Scrum, Linux, MacOS, Windows, Docker, k8s, MySQL, PostgreSQL, Redis, MongoDB, Grafana, Prometheus, Tailscale, Proxmox, Affinity, Figm, Claude Code, Codex.',
+        en: 'Agile/Scrum, Linux, MacOS, Windows, Docker, k8s, MySQL, PostgreSQL, Redis, MongoDB, Grafana, Prometheus, Tailscale, Proxmox, Affinity, Figma, Claude Code, Codex',
       },
     },
     {
@@ -99,6 +99,39 @@ export const content = {
           en: 'My primary tasks involve supporting various SME software projects. Additionally, I work on greenfield projects, IT infrastructure, cloud environments, and security tests. For a complete overview, visit the website at pokeit.nl/diensten',
         },
         technologies: ['Typescript', 'Node.js', 'React', 'React Native', 'Docker', 'Postgres'],
+      },
+      {
+        logoSrc: './assets/companies/bumastemra.png',
+        name: 'BumaStemra',
+        location: 'Hoofddorp',
+        position: {
+          nl: 'Freelance software engineer',
+          en: 'Freelance software engineer',
+        },
+        started: {
+          nl: 'Januari 2026',
+          en: 'January 2026',
+        },
+        ended: {
+          nl: 'Heden',
+          en: 'Present',
+        },
+        summary: {
+          nl: "Meegewerkt aan de doorontwikkeling en modernisering van het auteursrechten-platform van BUMA/STEMRA, dat muziekauteurs en uitgevers ondersteunt bij het registreren van werken, het beheren van rechten en het uitkeren van royalty's. De ontwikkeling vond plaats in een full-stack TypeScript-omgeving met React aan de voorkant en een NestJS/GraphQL-backend, waarbij ik aan diverse onderdelen van het platform heb bijgedragen om de functionaliteit, gebruiksvriendelijkheid en betrouwbaarheid te verbeteren.",
+          en: "Contributed to the further development and modernization of BUMA/STEMRA's copyright platform, which supports music authors and publishers in registering works, managing rights, and distributing royalties. The development took place in a full-stack TypeScript environment with React on the frontend and a NestJS/GraphQL backend, where I contributed to various parts of the platform to improve functionality, user-friendliness, and reliability.",
+        },
+        technologies: [
+          'TypeScript',
+          'Node.js',
+          'Nest.js',
+          'GraphQL',
+          'Monorepo',
+          'PostgreSQL',
+          'Redis',
+          'React',
+          'Kubernetes',
+          'Azure',
+        ],
       },
       {
         logoSrc: './assets/companies/hostbit.png',

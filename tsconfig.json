@@ -26,9 +26,8 @@
     "resolveJsonModule": true,
     "preserveWatchOutput": true,
     "skipLibCheck": true,
-    "baseUrl": ".",
     "paths": {
-      "#*": ["src/*"]
+      "#*": ["./src/*"]
     },
     "jsx": "react"
   },

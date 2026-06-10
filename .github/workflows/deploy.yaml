@@ -35,6 +35,6 @@ jobs:
           username: ${{ secrets.SERVER_KEVIN_SSH_USERNAME }}
           key: ${{ secrets.SERVER_KEVIN_SSH_KEY }}
           port: ${{ secrets.SERVER_KEVIN_SSH_PORT }}
-          source: "dist/resume-english.pdf,dist/resume-dutch.pdf"
+          source: 'dist/resume-english.pdf,dist/resume-dutch.pdf'
           target: ${{ secrets.SERVER_KEVIN_LOCATION_DL }}
           strip_components: 1
