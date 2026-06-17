@@ -26,8 +26,8 @@ export const content = {
         en: 'About Kevin',
       },
       content: {
-        nl: 'Senior fullstack developer met meer dan 13 jaar ervaring in verschillende programmeertalen en cloudplatformen. Sterk in schaalbare architecturen, security en performance. Analytisch, pragmatisch en gericht op kwaliteit.',
-        en: 'Senior fullstack developer with over 13 years of experience in various programming languages and cloud platforms. Strong in scalable architectures, security, and performance. Analytical, pragmatic, and quality-focused.',
+        nl: 'Senior fullstack developer met meer dan tien jaar ervaring in verschillende programmeertalen en cloudplatformen. Sterk in schaalbare architecturen, security en performance. Analytisch, pragmatisch en gericht op kwaliteit.',
+        en: 'Senior fullstack developer with over a decade of experience in various programming languages and cloud platforms. Strong in scalable architectures, security, and performance. Analytical, pragmatic, and quality-focused.',
       },
     },
     {
@@ -46,8 +46,8 @@ export const content = {
         en: 'Programming languages',
       },
       content: {
-        nl: 'TypeScript, JavaScript, C#, C, C++, PHP, Kotlin, Java, Golang.',
-        en: 'TypeScript, JavaScript, C#, C, C++, PHP, Kotlin, Java, Golang.',
+        nl: 'TypeScript, JavaScript, PHP, Golang, C#, Java, Kotlin, C++, C.',
+        en: 'TypeScript, JavaScript, PHP, Golang, C#, Java, Kotlin, C++, C.',
       },
     },
     {
@@ -56,8 +56,8 @@ export const content = {
         en: 'Tools and software',
       },
       content: {
-        nl: 'Agile/Scrum, Linux, MacOS, Windows, Docker, k8s, MySQL, PostgreSQL, Redis, MongoDB, Grafana, Prometheus, Tailscale, Proxmox, Affinity, Figm, Claude Code, Codex.',
-        en: 'Agile/Scrum, Linux, MacOS, Windows, Docker, k8s, MySQL, PostgreSQL, Redis, MongoDB, Grafana, Prometheus, Tailscale, Proxmox, Affinity, Figma, Claude Code, Codex',
+        nl: 'Agile/Scrum, Linux, macOS, Windows, Docker, k8s, MySQL, PostgreSQL, Redis, MongoDB, Grafana, Prometheus, Tailscale, Proxmox, Affinity, Figma, Claude Code, Codex.',
+        en: 'Agile/Scrum, Linux, macOS, Windows, Docker, k8s, MySQL, PostgreSQL, Redis, MongoDB, Grafana, Prometheus, Tailscale, Proxmox, Affinity, Figma, Claude Code, Codex.',
       },
     },
     {
@@ -95,18 +95,18 @@ export const content = {
           en: 'Present',
         },
         summary: {
-          nl: 'Mijn primaire werkzaamheden bestaan uit het ondersteunen van uiteenlopende MKB-softwareprojecten. Daarnaast werk ik aan greenfield-projecten, IT-infrastructuur, cloudomgevingen en securitytests. Voor een compleet overzicht bekijk de website op pokeit.nl/diensten',
-          en: 'My primary tasks involve supporting various SME software projects. Additionally, I work on greenfield projects, IT infrastructure, cloud environments, and security tests. For a complete overview, visit the website at pokeit.nl/diensten',
+          nl: 'Mijn primaire werkzaamheden bestaan uit het ondersteunen van uiteenlopende MKB-softwareprojecten. Daarnaast werk ik aan greenfield-projecten, IT-infrastructuur, cloudomgevingen en securitytests. Voor een compleet overzicht bekijk de website op pokeit.nl/diensten.',
+          en: 'My primary tasks involve supporting various SME software projects. Additionally, I work on greenfield projects, IT infrastructure, cloud environments, and security tests. For a complete overview, visit the website at pokeit.nl/diensten.',
         },
-        technologies: ['Typescript', 'Node.js', 'React', 'React Native', 'Docker', 'Postgres'],
+        technologies: ['TypeScript', 'Node.js', 'React', 'React Native', 'Docker', 'PostgreSQL'],
       },
       {
         logoSrc: './assets/companies/bumastemra.png',
         name: 'BumaStemra',
         location: 'Hoofddorp',
         position: {
-          nl: 'Freelance software engineer',
-          en: 'Freelance software engineer',
+          nl: 'Freelance Software Engineer',
+          en: 'Freelance Software Engineer',
         },
         started: {
           nl: 'Januari 2026',
@@ -123,7 +123,7 @@ export const content = {
         technologies: [
           'TypeScript',
           'Node.js',
-          'Nest.js',
+          'NestJS',
           'GraphQL',
           'Monorepo',
           'PostgreSQL',
@@ -150,16 +150,16 @@ export const content = {
           en: 'Present',
         },
         summary: {
-          nl: 'Het ontwikkelen van een maatwerk hosting platform voor webhosting, domeinnamen en deployable docker images. Beheer van diverse Linux machines en opzetten monitoring.',
-          en: 'Developing a custom hosting platform for web hosting, domain names, and deployable docker images. Managing various Linux machines and setting up monitoring.',
+          nl: 'Het ontwikkelen van een maatwerk hostingplatform voor webhosting, domeinnamen en deployable Docker images. Beheer van diverse Linux-machines en het opzetten van monitoring.',
+          en: 'Developing a custom hosting platform for web hosting, domain names, and deployable Docker images. Managing various Linux machines and setting up monitoring.',
         },
         technologies: [
           'Golang',
-          'Typescript',
+          'TypeScript',
           'React',
           'Node.js',
           'Next.js',
-          'Postgres',
+          'PostgreSQL',
           'Docker',
           'Prometheus',
           'Ansible',
@@ -183,17 +183,17 @@ export const content = {
         },
         summary: {
           nl: 'Ontwikkeling van een React Native-app voor Android en iOS waarmee werkbonnen automatisch kunnen worden ingevuld via gekoppelde Bluetooth-apparaten.',
-          en: 'Development of a React Native app for Android and iOS that allows work orders to be automatically filled in via connected Bluetooth devices.',
+          en: 'Development of a React Native app for Android and iOS that allows work orders to be automatically filled out via connected Bluetooth devices.',
         },
-        technologies: ['Typescript', 'React Native', 'Node.js', 'Postgres', "External api's", 'Hardware integration'],
+        technologies: ['TypeScript', 'React Native', 'Node.js', 'PostgreSQL', 'External APIs', 'Hardware integration'],
       },
       {
         logoSrc: './assets/companies/eab.png',
         name: 'Energie Excellent',
         location: 'Den Haag',
         position: {
-          nl: 'Freelance software engineer',
-          en: 'Freelance software engineer',
+          nl: 'Freelance Software Engineer',
+          en: 'Freelance Software Engineer',
         },
         started: {
           nl: 'Mei 2024',
@@ -207,15 +207,15 @@ export const content = {
           nl: 'Meegewerkt aan de uitbreiding en optimalisatie van een energiesysteem dat organisaties ondersteunt bij het strategisch en kostenefficiënt inkopen van energie. De ontwikkeling vond voornamelijk plaats in Laravel.',
           en: 'Contributed to the expansion and optimization of an energy system that helps organizations strategically and cost-effectively purchase energy. The development mainly took place in Laravel.',
         },
-        technologies: ['PHP', 'Typescript', 'Laravel', 'MySQL', 'Docker'],
+        technologies: ['PHP', 'TypeScript', 'Laravel', 'MySQL', 'Docker'],
       },
       {
         logoSrc: './assets/companies/vanwijnen.png',
         name: 'Van Wijnen',
         location: 'Harderwijk',
         position: {
-          nl: 'Fulltime Software Engineer',
-          en: 'Fulltime Software Engineer',
+          nl: 'Full-time Software Engineer',
+          en: 'Full-time Software Engineer',
         },
         started: {
           nl: 'April 2021',
@@ -230,7 +230,7 @@ export const content = {
           en: 'Contributed to the implementation and expansion of integrations within the iPaaS platform, securely and reliably connecting various internal and external systems.',
         },
         technologies: [
-          'Typescript',
+          'TypeScript',
           'Node.js',
           'Microsoft Azure',
           'DevOps',
@@ -243,8 +243,8 @@ export const content = {
         name: 'Versio B.V.',
         location: 'Zwolle',
         position: {
-          nl: 'Fulltime Lead Software Engineer',
-          en: 'Fulltime Lead Software Engineer',
+          nl: 'Full-time Lead Software Engineer',
+          en: 'Full-time Lead Software Engineer',
         },
         started: {
           nl: 'April 2019',
@@ -261,7 +261,7 @@ export const content = {
         technologies: [
           'PHP',
           'Laravel',
-          'Typescript',
+          'TypeScript',
           'Next.js',
           'MySQL',
           'Docker',
@@ -272,12 +272,12 @@ export const content = {
         ],
       },
       {
-        logoSrc: './assets/companies/pokeit.png',
+        logoSrc: './assets/companies/reviced.png',
         name: 'Reviced B.V.',
         location: 'Meppel',
         position: {
-          nl: 'Freelance software engineer',
-          en: 'Freelance software engineer',
+          nl: 'Freelance Software Engineer',
+          en: 'Freelance Software Engineer',
         },
         started: {
           nl: 'September 2012',
@@ -288,8 +288,8 @@ export const content = {
           en: 'November 2018',
         },
         summary: {
-          nl: 'Vlak voor de migratie naar een nieuw platform een data synchronisatie tool gemaakt. Voor het platform diverse modules en koppelingen gebouwd en onderhouden.',
-          en: 'Just before the migration to a new platform, created a data synchronization tool. Built and maintained various modules and integrations for the platform.',
+          nl: 'Vlak voor de migratie naar een nieuw platform heb ik een datasynchronisatietool gemaakt en onderhouden. Daarnaast heb ik een compleet hostingmanagementsysteem inclusief website gebouwd en voor het platform diverse modules en koppelingen ontwikkeld en onderhouden.',
+          en: 'Just before the migration to a new platform, built and maintained a data synchronization tool. Also developed a complete hosting management system including the website, and built and maintained various modules and integrations for the platform.',
         },
         technologies: [
           'PHP',
