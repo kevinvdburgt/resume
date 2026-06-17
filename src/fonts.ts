@@ -20,3 +20,6 @@ Font.register({
     },
   ],
 });
+
+// Disable hyphenation so whole words wrap to a new line instead of being split.
+Font.registerHyphenationCallback((word) => [word]);

@@ -108,6 +108,8 @@ export const styles = StyleSheet.create({
     fontFamily: 'Poppins',
     fontWeight: 400,
     fontSize: '10pt',
+
+    textAlign: 'justify',
   },
 
   technologies: {
