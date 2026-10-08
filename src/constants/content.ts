@@ -56,8 +56,18 @@ export const content = {
         en: 'Tools and software',
       },
       content: {
-        nl: 'Agile/Scrum, Linux, macOS, Windows, Docker, k8s, MySQL, PostgreSQL, Redis, MongoDB, Grafana, Prometheus, Tailscale, Proxmox, Affinity, Figma, Claude Code, Codex.',
-        en: 'Agile/Scrum, Linux, macOS, Windows, Docker, k8s, MySQL, PostgreSQL, Redis, MongoDB, Grafana, Prometheus, Tailscale, Proxmox, Affinity, Figma, Claude Code, Codex.',
+        nl: 'Agile/Scrum, Linux, macOS, Windows, Docker, k8s, GitHub Actions, Ansible, Nginx, Traefik, MySQL, PostgreSQL, Redis, MongoDB, ClickHouse, MinIO, Directus, Grafana, Prometheus, Sentry, Tailscale, Proxmox, Affinity, Figma, Claude Code, Codex.',
+        en: 'Agile/Scrum, Linux, macOS, Windows, Docker, k8s, GitHub Actions, Ansible, Nginx, Traefik, MySQL, PostgreSQL, Redis, MongoDB, ClickHouse, MinIO, Directus, Grafana, Prometheus, Sentry, Tailscale, Proxmox, Affinity, Figma, Claude Code, Codex.',
+      },
+    },
+    {
+      name: {
+        nl: 'Tech stack',
+        en: 'Tech stack',
+      },
+      content: {
+        nl: 'React, React Native, Expo, Next.js, TanStack, Vue.js, Vite, Tailwind CSS, Redux, Zustand, React Hook Form, Node.js, Express, Hono, NestJS, Laravel, GraphQL, Socket.IO, Prisma, Kysely, Zod, Vitest, OAuth2, OpenID Connect, WebAuthn, mTLS.',
+        en: 'React, React Native, Expo, Next.js, TanStack, Vue.js, Vite, Tailwind CSS, Redux, Zustand, React Hook Form, Node.js, Express, Hono, NestJS, Laravel, GraphQL, Socket.IO, Prisma, Kysely, Zod, Vitest, OAuth2, OpenID Connect, WebAuthn, mTLS.',
       },
     },
     {
