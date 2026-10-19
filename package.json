@@ -9,8 +9,8 @@
     "#*": "./dist/*"
   },
   "scripts": {
-    "dev": "node --import ./scripts/loader.js --watch ./scripts/generate.tsx",
-    "generate": "node --import ./scripts/loader.js ./scripts/generate.tsx",
+    "dev": "node --import @oxc-node/core/register --watch ./scripts/generate.tsx",
+    "generate": "node --import @oxc-node/core/register ./scripts/generate.tsx",
     "check": "oxlint && oxfmt --check",
     "check:fix": "oxlint --fix && oxfmt"
   },
@@ -23,10 +23,13 @@
     "zod": "^4.1.13"
   },
   "devDependencies": {
-    "@swc-node/register": "^1.11.1",
-    "@types/node": "^24.10.1",
+    "@oxc-node/core": "^0.1.7",
+    "@types/node": "^26.6.5",
     "oxfmt": "^0.54.0",
     "oxlint": "^1.69.0",
     "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": ">=26"
   }
 }
