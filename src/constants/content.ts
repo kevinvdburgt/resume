@@ -46,8 +46,8 @@ export const content = {
         en: 'Programming languages',
       },
       content: {
-        nl: 'TypeScript, JavaScript, PHP, Golang, C#, Java, Kotlin, C++, C.',
-        en: 'TypeScript, JavaScript, PHP, Golang, C#, Java, Kotlin, C++, C.',
+        nl: 'TypeScript, JavaScript, Rust, PHP, Golang, C#, Java, Kotlin, C++, C.',
+        en: 'TypeScript, JavaScript, Rust, PHP, Golang, C#, Java, Kotlin, C++, C.',
       },
     },
     {
@@ -56,8 +56,8 @@ export const content = {
         en: 'Tools and software',
       },
       content: {
-        nl: 'Agile/Scrum, Linux, macOS, Windows, Docker, k8s, GitHub Actions, Ansible, Nginx, Traefik, MySQL, PostgreSQL, Redis, MongoDB, ClickHouse, MinIO, Directus, Grafana, Prometheus, Sentry, Tailscale, Proxmox, Affinity, Figma, Claude Code, Codex.',
-        en: 'Agile/Scrum, Linux, macOS, Windows, Docker, k8s, GitHub Actions, Ansible, Nginx, Traefik, MySQL, PostgreSQL, Redis, MongoDB, ClickHouse, MinIO, Directus, Grafana, Prometheus, Sentry, Tailscale, Proxmox, Affinity, Figma, Claude Code, Codex.',
+        nl: 'Agile/Scrum, Linux, macOS, Windows, Docker, k8s, GitHub Actions, Ansible, Nginx, Traefik, MySQL, PostgreSQL, Redis, MongoDB, ClickHouse, MinIO, Directus, Grafana, Prometheus, Sentry, Tailscale, Proxmox, pnpm, oxc, Mollie, ElevenLabs, OpenAI API, Affinity, Figma, Claude Code, Codex.',
+        en: 'Agile/Scrum, Linux, macOS, Windows, Docker, k8s, GitHub Actions, Ansible, Nginx, Traefik, MySQL, PostgreSQL, Redis, MongoDB, ClickHouse, MinIO, Directus, Grafana, Prometheus, Sentry, Tailscale, Proxmox, pnpm, oxc, Mollie, ElevenLabs, OpenAI API, Affinity, Figma, Claude Code, Codex.',
       },
     },
     {
@@ -66,8 +66,8 @@ export const content = {
         en: 'Tech stack',
       },
       content: {
-        nl: 'React, React Native, Expo, Next.js, TanStack, Vue.js, Vite, Tailwind CSS, Redux, Zustand, React Hook Form, Node.js, Express, Hono, NestJS, Laravel, GraphQL, Socket.IO, Prisma, Kysely, Zod, Vitest, OAuth2, OpenID Connect, WebAuthn, mTLS.',
-        en: 'React, React Native, Expo, Next.js, TanStack, Vue.js, Vite, Tailwind CSS, Redux, Zustand, React Hook Form, Node.js, Express, Hono, NestJS, Laravel, GraphQL, Socket.IO, Prisma, Kysely, Zod, Vitest, OAuth2, OpenID Connect, WebAuthn, mTLS.',
+        nl: 'React, React Native, Expo, Tauri, Next.js, TanStack, Vue.js, Vite, Tailwind CSS, Base UI, Redux, Zustand, React Hook Form, Node.js, Express, Hono, NestJS, Laravel, GraphQL, Socket.IO, Prisma, Kysely, Zod, Vitest, Tokio, Axum, SQLx, SIP, RTP, OAuth2, OpenID Connect, WebAuthn, mTLS.',
+        en: 'React, React Native, Expo, Tauri, Next.js, TanStack, Vue.js, Vite, Tailwind CSS, Base UI, Redux, Zustand, React Hook Form, Node.js, Express, Hono, NestJS, Laravel, GraphQL, Socket.IO, Prisma, Kysely, Zod, Vitest, Tokio, Axum, SQLx, SIP, RTP, OAuth2, OpenID Connect, WebAuthn, mTLS.',
       },
     },
     {
@@ -109,6 +109,39 @@ export const content = {
           en: 'My primary tasks involve supporting various SME software projects. Additionally, I work on greenfield projects, IT infrastructure, cloud environments, and security tests. For a complete overview, visit the website at pokeit.nl/diensten.',
         },
         technologies: ['TypeScript', 'Node.js', 'React', 'React Native', 'Docker', 'PostgreSQL'],
+      },
+      {
+        logoSrc: './assets/companies/talkip.png',
+        name: 'TalkIP',
+        location: 'Dronten',
+        position: {
+          nl: 'Founder',
+          en: 'Founder',
+        },
+        started: {
+          nl: 'Oktober 2026',
+          en: 'October 2026',
+        },
+        ended: {
+          nl: 'Heden',
+          en: 'Present',
+        },
+        summary: {
+          nl: "Ontwikkeling van TalkIP, een virtuele telefooncentrale voor zakelijk bellen. Dit omvat een eigen PBX in Rust, een TypeScript-backend met Hono en Kysely, een website en beheerpaneel in TanStack Start, en softphones voor desktop (Tauri) en mobiel (Expo). Daarnaast AI-agents, transcripties en samenvattingen van gesprekken, IVR's, belgroepen, workflows en facturatie.",
+          en: 'Developing TalkIP, a virtual phone system for business calling. This includes a custom PBX in Rust, a TypeScript backend with Hono and Kysely, a website and admin panel in TanStack Start, and softphones for desktop (Tauri) and mobile (Expo). Also AI agents, call transcription and summaries, IVRs, ring groups, workflows, and billing.',
+        },
+        technologies: [
+          'Rust',
+          'TypeScript',
+          'SIP/VoIP',
+          'Hono',
+          'TanStack Start',
+          'React Native',
+          'Tauri',
+          'PostgreSQL',
+          'Docker',
+          'ElevenLabs',
+        ],
       },
       {
         logoSrc: './assets/companies/bumastemra.png',
