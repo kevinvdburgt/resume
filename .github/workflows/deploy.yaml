@@ -11,16 +11,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v5
 
       - uses: pnpm/action-setup@v4
-        with:
-          cache: true
 
       - name: Setup node
         uses: actions/setup-node@v6
         with:
           node-version: 26
+          cache: pnpm
 
       - name: Install dependencies
         run: pnpm install
