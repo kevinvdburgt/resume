@@ -8,6 +8,7 @@ import { Header } from '#components/header.js';
 import { Heading } from '#components/heading.js';
 import { Main } from '#components/main.js';
 import { Page } from '#components/page.js';
+import { PersonalProject } from '#components/personal-project.js';
 import { Sidebar } from '#components/sidebar.js';
 import { WorkExperience } from '#components/work-experience.js';
 import { content } from '#constants/content.js';
@@ -49,6 +50,17 @@ export const Resume: FunctionComponent<ResumeProps> = (props) => {
               position={item.position[language]}
               started={item.started[language]}
               ended={item.ended[language]}
+              summary={item.summary[language]}
+              technologies={item.technologies}
+            />
+          ))}
+
+          <Heading name={content.personalProjects.name[language]} style={{ marginTop: '10mm' }} minPresenceAhead={60} />
+          {content.personalProjects.items.map((item, index) => (
+            <PersonalProject
+              key={index}
+              style={{ marginTop: '5mm' }}
+              name={item.name}
               summary={item.summary[language]}
               technologies={item.technologies}
             />

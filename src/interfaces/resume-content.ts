@@ -25,6 +25,15 @@ export interface ResumeContent {
     }[];
   };
 
+  readonly personalProjects: {
+    readonly name: Translate;
+    readonly items: {
+      readonly name: string;
+      readonly summary: Translate;
+      readonly technologies: string[];
+    }[];
+  };
+
   readonly credits: {
     readonly message: Translate;
     readonly url: string;
